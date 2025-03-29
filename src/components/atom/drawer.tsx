@@ -12,7 +12,6 @@ type Props = {
 
 export const Drawer: FunctionComponent<PropsWithChildren<Props>> = ({
   children,
-  isOpen,
   onClose,
   className,
   title,
@@ -20,15 +19,11 @@ export const Drawer: FunctionComponent<PropsWithChildren<Props>> = ({
   return (
     <div
       className={classNames(
-        'w-75 fixed bottom-0 top-[69px] z-10 flex flex-col border-l bg-white transition-transform duration-300 ease-out',
-        {
-          'translate-x-full': !isOpen,
-          '--translate-x-full right-12': isOpen,
-        },
+        'flex w-75 flex-col border-l bg-white transition-transform duration-300',
         className,
       )}
     >
-      <div className='flex items-center justify-between border-b px-3 py-2.5'>
+      <div className='flex items-center justify-between border-b px-2 py-1.5'>
         <p className='text-sm font-medium'>{title}</p>
         <Button variant='icon' onClick={onClose} className='p-0'>
           <img src={Cross} alt='close' />
