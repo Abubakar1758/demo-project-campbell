@@ -1,0 +1,23 @@
+export { default as BackgroundGradient } from './background-gradient.svg';
+export { default as BlankPage } from './blank-page.svg';
+export { default as ChevronDown } from './chevron-down.svg';
+export { default as ChevronLeft } from './chevron-left.svg';
+export { default as HorizontalOrientation } from './horizontal-orientation.svg';
+export { default as Opacity } from './opacity.svg';
+export { default as Play } from './play.svg';
+export { default as SkipBackward } from './skip-backward.svg';
+export { default as SkipForward } from './skip-forward.svg';
+export { default as Vector } from './vector.svg';
+export { default as Bin } from './bin.svg';
+export { default as Scissors } from './scissors.svg';
+export { default as BlueZoomIn } from './blue-zoom-in.svg';
+export { default as Plus } from './plus.svg';
+export {default as UploadField} from './upload-field.svg'
+export { default as File } from './file.svg';
+export { default as Layout } from './layout.svg'
+export { default as Record } from './record.svg';
+export { default as Upload } from './upload.svg';
+export { default as Type } from './type.svg';
+export { default as ColsedCaptioning } from './closed-captioning.svg'
+export { default as Music } from './music.svg';
+export { default as Cross } from './cross.svg';
